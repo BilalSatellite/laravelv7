@@ -15,6 +15,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
     @livewireStyles
 
@@ -36,7 +37,7 @@
             @include('layouts.panel.sidebar')
             <!-- ./Sidebar -->
              <!-- Main content -->
-             <div class="h-full mt-14 mb-10 bg-gray-500"
+             <div class="h-full mt-14 mb-10 bg-white"
              :class="{'md:ml-64': open}">
 
                  {{ $slot }}
