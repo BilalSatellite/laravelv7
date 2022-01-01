@@ -24,10 +24,10 @@
 
 </head>
 
-<body x-data="{ open: true }" class="antialiased text-gray-900 bg-col1">
+<body x-data="{ open: true }" class="antialiased text-gray-900 bg-white">
 
         <div
-            class="min-h-screen w-full flex flex-col flex-auto flex-shrink-0 antialiased bg-col1 dark:bg-gray-700 text-black dark:text-white">
+            class="min-h-screen w-full flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
 
             <!-- Header -->
             @include('layouts.panel.header')
@@ -37,11 +37,7 @@
             @include('layouts.panel.sidebar')
             <!-- ./Sidebar -->
              <!-- Main content -->
-<<<<<<< HEAD
              <div class="h-full mt-14 mb-10 bg-white"
-=======
-             <div class="h-full mt-14 mb-10 bg-col1 "
->>>>>>> 6fd4ce16981c8aaa1c4a9d8086560140720cbe69
              :class="{'md:ml-64': open}">
 
                  {{ $slot }}
