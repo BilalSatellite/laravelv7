@@ -4,7 +4,7 @@
 
     @layer components {
         .draklight {
-        @apply bg-bglight text-textdark dark:bg-gray-900 dark:text-white dark:border-none  ;
+        @apply bg-bglight text-textdark dark:bg-gray-900 dark:text-white;
         }
 
     }

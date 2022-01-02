@@ -20,6 +20,7 @@ module.exports = {
                 'textlight' : '#7791a1',
                 'textdark' : '#060606',
                 'myred':'#FF0000',
+                'bglight2':'#EDEBD7'
               },
 
         },
