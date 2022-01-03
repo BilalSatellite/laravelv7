@@ -1,11 +1,11 @@
-<div class="fixed w-full flex items-center justify-between h-14  z-10  ">
+<div class="fixed w-full flex items-center justify-between h-14  z-10 text-dark1 dark:text-light1 bg-light1 dark:bg-dark1">
     <div
-        class="flex items-center justify-start md:w-64 md:justify-center pl-3 w-14  h-14 draklight border-b dark:border-none">
+        class="flex items-center justify-start md:w-64 md:justify-center pl-3 w-14  h-14 border-b dark:border-none">
         <img class="w-7 h-7  mr-2 rounded-md overflow-hidden md:w-10 md:h-10"
             src="https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg" />
         <span class="hidden md:block font-bold uppercase">Satellite</span>
     </div>
-    <div class="flex-1 items-center  draklight  header-right border-b dark:border-none">
+    <div class="flex-1 items-center  header-right border-b  dark:border-none">
         <div class="flex justify-between">
             <div class="flex h-14 items-center">
                 <ul class="flex items-center">
@@ -14,7 +14,7 @@
                             <span class="inline-flex mr-1">
                                 <i class="fas fa-angle-double-right transform transition duration-700 ease-in-out animate-pulse "
                                 :class="{'-rotate-180': open}"></i>
-                               
+
                             </span>
                         </button>
                     </li>

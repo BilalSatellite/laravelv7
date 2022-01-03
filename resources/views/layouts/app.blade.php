@@ -24,7 +24,7 @@
 
 </head>
 
-<body x-data="{ open: true }" class="antialiased draklight">
+<body x-data="{ open: true }" class="antialiased bg-white">
 
         <div
             class="min-h-screen w-full flex flex-col flex-auto flex-shrink-0 antialiased">
@@ -37,8 +37,8 @@
             @include('layouts.panel.sidebar')
             <!-- ./Sidebar -->
              <!-- Main content -->
-             <div class="h-full mt-14 mb-10  draklight"
-             :class="{'md:ml-64': open}">
+             <div class="h-full mt-14 mb-10  dark:bg-gray-700"
+             :class="{'md:ml-64 transform duration-700': open}">
 
                  {{ $slot }}
 

@@ -2,11 +2,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-    @layer components {
+    /* @layer components {
         .draklight {
         @apply bg-bglight text-textdark dark:bg-gray-900 dark:text-white;
         }
 
-    }
+    } */
 
 

@@ -15,12 +15,12 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                'bglight': '#FFFFFF',
-                'bgdark': '#0D0D0D',
-                'textlight' : '#7791a1',
-                'textdark' : '#060606',
-                'myred':'#FF0000',
-                'bglight2':'#EDEBD7'
+                'light1':'#F3F4F6',
+                'light2' : '#FFBA49',
+                'light3': '#8F7E4F',
+                'dark1': '#1F2937',
+                'dark2' : '#584B53',
+                'myred':'#EF4444',
               },
 
         },
