@@ -1,4 +1,4 @@
-<div class="fixed flex flex-col top-14 left-0 w-14 md:w-64 hover:w-64  h-full text-dark1 dark:text-light1 bg-light1 dark:bg-dark1  border-r dark:border-none z-10 transition-all duration-300"
+<div class="fixed flex flex-col top-14 left-0 w-14 md:w-64 hover:w-64  h-full text-black dark:text-gray-100 bg-white dark:bg-gray-900  border-r dark:border-none z-10 transition-all duration-300"
 :class="{'transform -translate-x-full ease-in-out duration-700': !open}">
     <div class="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
         <ul class="flex flex-col py-4 space-y-1 ">
@@ -9,7 +9,7 @@
             </li>
             <li>
                 <a href="{{ route('dashboard') }}"
-                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-myred to-dark2   hover:text-light1 border-l-4 border-transparent hover:border-light2  pr-6 ">
+                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
                     <span class="inline-flex justify-center items-center ml-4">
                         <i class="fas fa-tachometer-alt"></i>
                     </span>
@@ -19,7 +19,7 @@
 
             <li>
                 <a href="#"
-                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-myred to-dark2   hover:text-light1 border-l-4 border-transparent hover:border-light2  pr-6 ">
+                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
                     <span class="inline-flex justify-center items-center ml-4">
                         <i class="far fa-envelope"></i>
 
@@ -35,7 +35,7 @@
             </li>
             <li>
                 <a href="#"
-                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-myred to-dark2   hover:text-light1 border-l-4 border-transparent hover:border-light2  pr-6 ">
+                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
                     <span class="inline-flex justify-center items-center ml-4">
                         <i class="far fa-user"></i>
 
@@ -45,7 +45,7 @@
             </li>
             <li>
                 <a href="#"
-                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-myred to-dark2   hover:text-light1 border-l-4 border-transparent hover:border-light2  pr-6 ">
+                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
                     <span class="inline-flex justify-center items-center ml-4">
                         <i class="fas fa-tools"></i>
                     </span>

@@ -38,7 +38,7 @@
             <!-- ./Sidebar -->
              <!-- Main content -->
              <div class="h-full mt-14 mb-10  dark:bg-gray-700"
-             :class="{'md:ml-64 transform duration-700': open}">
+             :class="{'md:ml-64 ml-14': open}">
 
                  {{ $slot }}
 
