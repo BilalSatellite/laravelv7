@@ -5,7 +5,8 @@
     </x-slot>
 
         <!-- Statistics Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+        :class="{'lg:grid-cols-6':!open}">
             <div
                 class="bg-red-500 dark:bg-gray-800 text-white  shadow-xl rounded-md flex items-center justify-between p-3  border-b-4 border-red-600 dark:border-gray-600  font-medium group">
                 <div

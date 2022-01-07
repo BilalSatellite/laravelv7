@@ -8,15 +8,14 @@
                 </div>
             </li>
             <li>
-                <a href="{{ route('dashboard') }}"
-                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
+
+                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                     <span class="inline-flex justify-center items-center ml-4">
                         <i class="fas fa-tachometer-alt"></i>
                     </span>
-                    <span class="ml-2 text-sm tracking-wide truncate">Dashboard</span>
-                </a>
+                    <span class="ml-2 text-sm tracking-wide truncate">{{ __('Dashboard') }}</span>
+                </x-jet-nav-link>
             </li>
-
             <li>
                 <a href="#"
                     class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
@@ -34,14 +33,12 @@
                 </div>
             </li>
             <li>
-                <a href="#"
-                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
+                <x-jet-nav-link href="{{ route('profile.show') }}" :active="request()->routeIs('profile.show')">
                     <span class="inline-flex justify-center items-center ml-4">
                         <i class="far fa-user"></i>
-
                     </span>
-                    <span class="ml-2 text-sm tracking-wide truncate">Profile</span>
-                </a>
+                    <span class="ml-2 text-sm tracking-wide truncate">{{ __('Profile') }}</span>
+                </x-jet-nav-link>
             </li>
             <li>
                 <a href="#"
