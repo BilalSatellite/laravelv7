@@ -1,4 +1,4 @@
-<div class="fixed w-full flex items-center justify-between h-14  z-10 text-dark1 dark:text-gray-100 bg-white dark:bg-gray-900">
+<div class="fixed w-full flex items-center justify-between h-14  z-10  draklighttext draklightbg1">
     <div
         class="flex items-center justify-start md:w-64 md:justify-center pl-3 w-14  h-14 border-b dark:border-none">
         <img class="w-7 h-9  mr-2 rounded-md overflow-hidden"
@@ -55,7 +55,7 @@
                             >
                             <img
                             class="w-10 mr-4 h-10 object-cover rounded-lg shadow-solid text-teal-400"
-                            src="//images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                            src="{{ auth()->user()->profile_photo_url }}"
                             alt="Avatar of Tailwind CSS Design"
                           />
                                 {{-- <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z" class="heroicon-ui"></path></svg> --}}

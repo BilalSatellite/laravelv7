@@ -24,7 +24,7 @@
 
 </head>
 
-<body x-data="{ open: true }" class="antialiased bg-white dark:bg-gray-700">
+<body x-data="{ open: true }" class="antialiased draklightbgbody">
 
         <div
             class="min-h-screen w-full flex flex-col flex-auto flex-shrink-0 antialiased">

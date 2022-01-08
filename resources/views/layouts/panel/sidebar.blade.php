@@ -1,4 +1,4 @@
-<div class="fixed flex flex-col top-14 left-0 w-14 md:w-64 hover:w-64  h-full text-black dark:text-gray-100 bg-white dark:bg-gray-900  border-r dark:border-none z-10 transition-all duration-300"
+<div class="fixed flex flex-col top-14 left-0 w-14 md:w-64 hover:w-64  h-full draklighttext draklightbg1  border-r dark:border-none z-10 transition-all duration-300"
 :class="{'transform -translate-x-full ease-in-out duration-700': !open}">
     <div class="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
         <ul class="flex flex-col py-4 space-y-1 ">
