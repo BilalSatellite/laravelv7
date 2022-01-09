@@ -1,4 +1,4 @@
-<div class="fixed w-full flex items-center justify-between h-14  z-10  draklighttext draklightbg1">
+<div class="fixed w-full flex items-center justify-between h-14  z-10 bg-smil3 dark:bg-smid3 text-smid2 dark:text-smil2">
     <div
         class="flex items-center justify-start md:w-64 md:justify-center pl-3 w-14  h-14 border-b dark:border-none">
         <img class="w-7 h-9  mr-2 rounded-md overflow-hidden"

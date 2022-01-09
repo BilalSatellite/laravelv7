@@ -3,7 +3,7 @@
         @section('title', 'My Profile')
     </x-slot>
 
-    <div>
+    <div class="bg-smil2 dark:bg-smid3 dark:text-smid2 p-4 rounded-lg">
         @if (Laravel\Fortify\Features::canUpdateProfileInformation())
                 @livewire('profile.update-profile-information-form')
 

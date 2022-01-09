@@ -2,7 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-    @layer components {
+    /* @layer components {
         .draklightbg1 {
         @apply bg-white dark:bg-gray-900;
         }
@@ -17,5 +17,5 @@
                 }
 
 
-    }
+    } */
 

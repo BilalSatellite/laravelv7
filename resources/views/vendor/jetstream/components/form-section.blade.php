@@ -1,11 +1,11 @@
 @props(['submit'])
 
-<section {{ $attributes->merge(['class' => 'draklightbg1  draklighttext']) }}>
+<section {{ $attributes->merge(['class' => '']) }}>
     <!-- Heading -->
-    <div class=" draklightbg1 draklighttext">
+    <div class="">
         <!-- Content -->
         <x-jet-section-title>
-            <div class="flex flex-1 flex-col items-center lg:items-start">
+            <div class="flex flex-1 flex-col items-center lg:items-start ">
                 <h2 class="text-xl  text-center mb-1">
                     <x-slot name="title">{{ $title }}</x-slot>
                 </h2>
@@ -17,7 +17,7 @@
         </x-jet-section-title>
     </div>
     <form wire:submit.prevent="{{ $submit }}">
-        <div class=" {{ isset($actions) ? '' : '' }}">
+        <div class=" {{ isset($actions) ? ' ' : '' }}">
             <div class="">
                 {{ $form }}
             </div>

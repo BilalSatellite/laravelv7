@@ -24,10 +24,10 @@
 
 </head>
 
-<body x-data="{ open: true }" class="antialiased draklightbgbody">
+<body x-data="{ open: true }" class="antialiased">
 
         <div
-            class="min-h-screen w-full flex flex-col flex-auto flex-shrink-0 antialiased">
+            class="min-h-screen w-full flex flex-col flex-auto flex-shrink-0 antialiased bg-smil1 dark:bg-smid1">
 
             <!-- Header -->
             @include('layouts.panel.header')
