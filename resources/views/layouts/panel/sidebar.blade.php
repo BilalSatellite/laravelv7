@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <aside x-transition:enter="transition transform duration-300"
     x-transition:enter-start="-translate-x-full opacity-30  ease-in"
     x-transition:enter-end="translate-x-0 opacity-100 ease-out" x-transition:leave="transition transform duration-300"
@@ -34,6 +35,50 @@
     <!-- Sidebar links -->
     <nav class="flex-1 overflow-hidden hover:overflow-y-auto text-skin-sidebar">
         <ul class="p-2 overflow-hidden">
+=======
+<div class="fixed flex flex-col top-14 left-0 w-14 md:w-64 hover:w-64  h-full   border-r dark:border-none z-10 transition-all duration-300 bg-smil3 dark:bg-smid3 text-smid3 dark:text-smil2"
+:class="{'transform -translate-x-full ease-in-out duration-700': !open}">
+    <div class="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
+        <ul class="flex flex-col py-4 space-y-1 ">
+            <li class="px-5 hidden md:block ">
+                <div class="flex flex-row items-center h-8">
+                    <div class="text-sm font-light tracking-wide text-gray-500 uppercase">Main</div>
+                </div>
+            </li>
+            <li>
+
+                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                    <span class="inline-flex justify-center items-center ml-4">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </span>
+                    <span class="ml-2 text-sm tracking-wide truncate">{{ __('Dashboard') }}</span>
+                </x-jet-nav-link>
+            </li>
+            {{-- <li>
+                <a href="#"
+                    class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gradient-to-r from-gray-800 via-gray-600 to-gray-700   hover:text-gray-100 border-x-2 rounded-r-lg rounded-l-lg border-transparent hover:border-red-600  pr-6">
+                    <span class="inline-flex justify-center items-center ml-4">
+                        <i class="far fa-envelope"></i>
+
+                    </span>
+                    <span class="ml-2 text-sm tracking-wide truncate">Messages</span>
+                </a>
+            </li> --}}
+
+            <li class="px-5 hidden md:block">
+                <div class="flex flex-row items-center mt-5 h-8">
+                    <div class="text-sm font-light tracking-wide text-gray-500 uppercase">Settings</div>
+                </div>
+            </li>
+            <li>
+                <x-jet-nav-link href="{{ route('profile.show') }}" :active="request()->routeIs('profile.show')">
+                    <span class="inline-flex justify-center items-center ml-4">
+                        <i class="far fa-user"></i>
+                    </span>
+                    <span class="ml-2 text-sm tracking-wide truncate">{{ __('Profile') }}</span>
+                </x-jet-nav-link>
+            </li>
+>>>>>>> 4e2f7f5a102a3a5e749d2f87937bd6997ceef0c5
             <li>
                 <a href="{{ url('/dashboard') }}"
                     class="flex items-center p-2 space-x-2 rounded-md  hover:bg-skin-sidebarhover-fill hover:text-skin-sidebarhover-link "

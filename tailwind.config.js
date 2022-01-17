@@ -24,6 +24,7 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+<<<<<<< HEAD
             textColor: {
                 skin: {
                    /* Text var*/
@@ -58,10 +59,24 @@ module.exports = {
               },
               colors: {
                 'borderColor': withOpacity('--color-borderColor'),
+=======
+            colors: {
+                'smil1': '#FFFFFF',
+                'smil2': '#9EA7B2',
+                'smil3': '#FEF2F2',
+                'smid1': '#4B5563',
+                'smid2': '#273444',
+                'smid3': '#111827',
+                'smid4': '#6B3333',
+                'smibr': '#DC2626',
+                
+                
+>>>>>>> 4e2f7f5a102a3a5e749d2f87937bd6997ceef0c5
               },
 
 
         },
+       
     },
 
     plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],

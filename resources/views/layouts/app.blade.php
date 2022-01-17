@@ -24,6 +24,7 @@ x-init="$watch('darkMode', val => localStorage.setItem('dark', val))" x-bind:cla
 
 </head>
 
+<<<<<<< HEAD
 <body class="antialiased dark:theme-dark">
     <div class="flex h-screen overflow-y-hidden  bg-skin-body-fill" x-data="setup()"
     x-init="$refs.loading.classList.add('hidden')">
@@ -69,6 +70,35 @@ style="backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px)"></div>
         }
     }
 </script>
+=======
+<body x-data="{ open: true }" class="antialiased">
+
+        <div
+            class="min-h-screen w-full flex flex-col flex-auto flex-shrink-0 antialiased bg-smil1 dark:bg-smid1">
+
+            <!-- Header -->
+            @include('layouts.panel.header')
+            <!-- ./Header -->
+
+            <!-- Sidebar -->
+            @include('layouts.panel.sidebar')
+            <!-- ./Sidebar -->
+             <!-- Main content -->
+             <div class="h-full mt-14 mb-10 p-4"
+             :class="{'md:ml-64 ml-14 ': open}">
+
+                 {{ $slot }}
+
+
+            </div>
+
+        </div>
+
+
+    @stack('modals')
+
+    @livewireScripts
+>>>>>>> 4e2f7f5a102a3a5e749d2f87937bd6997ceef0c5
 
 
 </body>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="flex flex-col flex-1 h-full overflow-hidden">
     <header class="flex-shrink-0 drop-shadow-sm bg-skin-navbar-fill border-b border-borderColor">
         <div class="flex items-center justify-between p-2 text-skin-nav">
@@ -14,6 +15,28 @@
                 </svg>
             </button>
         </div>
+=======
+<div class="fixed w-full flex items-center justify-between h-14  z-10 bg-smil3 dark:bg-smid3 text-smid2 dark:text-smil2">
+    <div
+        class="flex items-center justify-start md:w-64 md:justify-center pl-3 w-14  h-14 border-b dark:border-none">
+        <img class="w-7 h-9  mr-2 rounded-md overflow-hidden"
+            src="{{ asset('img/logo/smi3.png') }}" />
+        <span class="hidden md:block text-center">
+            <p class="font-bold uppercase leading-none">Satellite</p>
+            <p class="text-sm leading-none">Mobile Institute</p>
+
+        </span>
+    </div>
+    <div class="flex-1 items-center  header-right border-b  dark:border-none">
+        <div class="flex justify-between">
+            <div class="flex h-14 items-center">
+                <ul class="flex items-center">
+                    <li>
+                        <button  @click="open = ! open" class="flex items-center mr-4 pl-1 hover:text-red-600">
+                            <span class="inline-flex mr-1">
+                                <i class="fas fa-angle-double-right transform transition duration-700 ease-in-out animate-pulse "
+                                :class="{'-rotate-180': open}"></i>
+>>>>>>> 4e2f7f5a102a3a5e749d2f87937bd6997ceef0c5
 
         <!-- Navbar right -->
         <div class="relative flex items-center space-x-3">

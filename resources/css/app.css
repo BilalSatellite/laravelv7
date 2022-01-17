@@ -2,6 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+<<<<<<< HEAD
 
 @layer base {
     :root {
@@ -28,6 +29,11 @@
            /* Border color var*/
            --color-borderColor: 243, 244, 246;/* Border color var*/
 
+=======
+    /* @layer components {
+        .draklightbg1 {
+        @apply bg-white dark:bg-gray-900;
+>>>>>>> 4e2f7f5a102a3a5e749d2f87937bd6997ceef0c5
         }
 
         .theme-dark {
@@ -54,6 +60,10 @@
         /* Border color var*/
         --color-borderColor: 30, 41, 59;/* Border color var*/
 
+<<<<<<< HEAD
       }
   }
+=======
+    } */
+>>>>>>> 4e2f7f5a102a3a5e749d2f87937bd6997ceef0c5
 

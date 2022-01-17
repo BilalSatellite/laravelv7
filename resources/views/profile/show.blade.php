@@ -1,7 +1,11 @@
 <x-app-layout>
         @section('title', 'My Profile')
 
+<<<<<<< HEAD
     <div >
+=======
+    <div class="bg-smil2 dark:bg-smid3 dark:text-smid2 p-4 rounded-lg">
+>>>>>>> 4e2f7f5a102a3a5e749d2f87937bd6997ceef0c5
         @if (Laravel\Fortify\Features::canUpdateProfileInformation())
         <div class="mt-10 sm:mt-0">
                 @livewire('profile.update-profile-information-form')
